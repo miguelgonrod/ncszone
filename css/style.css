@@ -177,24 +177,27 @@
 	.image {
 		border: 0;
 		position: relative;
+		float: left;
+		display: inline-block;
+		margin-right: 1em;
 	}
 
 		.image.fit {
-			display: block;
+			display: inline-block;
 		}
 
 			.image.fit img {
-				display: block;
+				display: inline-block;
 				width: 100%;
 			}
 
 		.image.feature {
-			display: block;
+			display: inline-block;
 			margin: 0 0 2em 0;
 		}
 
 			.image.feature img {
-				display: block;
+				display: inline-blockblock;
 				width: 100%;
 			}
 
