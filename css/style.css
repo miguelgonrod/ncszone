@@ -183,21 +183,37 @@
 	}
 
 		.image.fit {
-			display: inline-block;
+			border: 0;
+		        position: relative;
+		        float: left;
+		        display: inline-block;
+		        margin-right: 1em;
 		}
 
 			.image.fit img {
-				display: inline-block;
+				border: 0;
+		                position: relative;
+		                float: left;
+		                display: inline-block;
+		                margin-right: 1em;
 				width: 100%;
 			}
 
 		.image.feature {
-			display: inline-block;
+			border: 0;
+		        position: relative;
+		        float: left;
+		        display: inline-block;
+		        margin-right: 1em;
 			margin: 0 0 2em 0;
 		}
 
 			.image.feature img {
-				display: inline-blockblock;
+				border: 0;
+		                position: relative;
+		                float: left;
+		                display: inline-block;
+		                margin-right: 1em;
 				width: 100%;
 			}
 
@@ -621,6 +637,13 @@
 		#main .sidebar .default li {
 			border-color: #cdcdcd;
 		}
+                #main .img {
+			border: 0;
+		        position: relative;
+		        float: left;
+		        display: inline-block;
+		        margin-right: 1em;
+               }
 
 		#main .sidebar .default a {
 			color: #464646;
