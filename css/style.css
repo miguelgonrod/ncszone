@@ -4,7 +4,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
 
 /* Basic */
 
@@ -177,43 +177,24 @@
 	.image {
 		border: 0;
 		position: relative;
-		float: left;
-		display: inline-block;
-		margin-right: 1em;
 	}
 
 		.image.fit {
-			border: 0;
-		        position: relative;
-		        float: left;
-		        display: inline-block;
-		        margin-right: 1em;
+			display: block;
 		}
 
 			.image.fit img {
-				border: 0;
-		                position: relative;
-		                float: left;
-		                display: inline-block;
-		                margin-right: 1em;
+				display: block;
 				width: 100%;
 			}
 
 		.image.feature {
-			border: 0;
-		        position: relative;
-		        float: left;
-		        display: inline-block;
-		        margin-right: 1em;
+			display: block;
 			margin: 0 0 2em 0;
 		}
 
 			.image.feature img {
-				border: 0;
-		                position: relative;
-		                float: left;
-		                display: inline-block;
-		                margin-right: 1em;
+				display: block;
 				width: 100%;
 			}
 
@@ -490,7 +471,7 @@
 /* Header */
 
 	#header {
-		background: #333333 url("../images/fondo.GIF") no-repeat;
+		background: #333333 url("../images/pic01.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 6em 0;
@@ -637,14 +618,6 @@
 		#main .sidebar .default li {
 			border-color: #cdcdcd;
 		}
-                #main .img {
-			border: 0;
-		        position: relative;
-		        float: left;
-		        display: inline-block;
-		        margin-right: 1em;
-		        margin-right: 1em;
-               }
 
 		#main .sidebar .default a {
 			color: #464646;
