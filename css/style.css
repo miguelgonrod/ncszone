@@ -443,7 +443,7 @@
 /* Wrapper */
 
 	.wrapper.style1 {
-		background: #fff;
+		background: #fff url("../images/fondop1.jpg") no-repeat;
 	}
 
 	.wrapper.style2 {
