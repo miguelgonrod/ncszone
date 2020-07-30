@@ -632,6 +632,7 @@
 	#footer {
 		padding: 4em 0;
 		color: #fff;
+		background: #ececec url("../images/fondo3.jpg") no-repeat;
 	}
 
 		#footer .major h2 {
