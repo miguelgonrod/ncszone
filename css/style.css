@@ -171,7 +171,21 @@
 	.formerize-placeholder {
 		color: rgba(85, 85, 85, 0.5) !important;
 	}
-
+/* Prueba */
+        .cabeza{
+		background: #333333 url("../images/fondo.GIF") no-repeat;
+        }
+        .segundo{
+		background: #ececec url("../images/fondo2.jpg") no-repeat;
+		padding: 6em 0;
+		text-align: center;
+        }
+        .tercero{
+		background: #fff url("../images/fondo1.jpg") no-repeat;
+        }
+        .copy{
+		background: #ececec url("../images/fondo3.jpg") no-repeat;
+        }
 /* Image */
 
 	.image {
@@ -443,11 +457,11 @@
 /* Wrapper */
 
 	.wrapper.style1 {
-		background: #fff url("../images/fondo1.jpg") no-repeat;
+		background: #fff;
 	}
 
 	.wrapper.style2 {
-		background: #ececec url("../images/fondo2.jpg") no-repeat;
+		background: #ececec;
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -471,7 +485,7 @@
 /* Header */
 
 	#header {
-		background: #333333 url("../images/fondo.GIF") no-repeat;
+		background: #333333;
 		background-size: cover;
 		color: #fff;
 		padding: 6em 0;
@@ -632,7 +646,7 @@
 	#footer {
 		padding: 4em 0;
 		color: #fff;
-		background: #ececec url("../images/fondo3.jpg") no-repeat;
+		background: #ececec;
 	}
 
 		#footer .major h2 {
