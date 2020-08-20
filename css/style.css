@@ -176,7 +176,7 @@
 		background: #333333 url("../images/fondo.GIF") no-repeat;
         }
         .segundo{
-		background: #ececec url("../images/fondo2.jpg") no-repeat;
+		background: #ececec url("../images/fondo2.jpg");
 		padding: 6em 0;
 		text-align: center;
         }
