@@ -457,7 +457,7 @@
 /* Wrapper */
 
 	.wrapper.style1 {
-		background: #fff url(".../images/emisora.png") no-repeat;
+		background: #fff url("../images/emisora.png") no-repeat;
 	}
 
 	.wrapper.style2 {
